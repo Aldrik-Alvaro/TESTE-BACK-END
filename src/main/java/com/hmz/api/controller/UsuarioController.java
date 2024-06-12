@@ -57,6 +57,6 @@ public class UsuarioController {
     //Endpoint para login
     @PostMapping(value = "/login")
     public Usuario login(@RequestBody Usuario usuario) {
-        return usuarioService.login(usuario.getUsername(), usuario.getSenha());
+        return usuarioService.login(usuario.getEmail(), usuario.getSenha());
     }
 }

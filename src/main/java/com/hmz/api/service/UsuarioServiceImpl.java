@@ -74,8 +74,8 @@ public class UsuarioServiceImpl implements UsuarioService {
     }
 
     @Override
-    public Usuario login(String username, String senha) {
-        Usuario usuario = usuarioRepo.findByUsernameAndSenha(username, senha);
+    public Usuario login(String email, String senha) {
+        Usuario usuario = usuarioRepo.findByEmailAndSenha(email, senha);
         if(usuario == null) {
             throw new IllegalArgumentException("Username ou senha incorretos!");
         }

@@ -16,5 +16,5 @@ public interface UsuarioService {
 
     public void deletarUsuario(Long id);
 
-    public Usuario login(String username, String senha);
+    public Usuario login(String email, String senha);
 }
