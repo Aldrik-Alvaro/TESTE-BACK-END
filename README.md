@@ -29,6 +29,7 @@
 	"email": "Teste@gmail.com",
 	"role": "admin"
 }
+```
 
 ### Atualizar usuário
 * **Método:** PUT
@@ -42,6 +43,7 @@
 	"email": "Teste@gmail.com",
 	"role": "admin"
 }
+```
 
 ### Deletar usuário
 * **Método:** DELETE
@@ -57,4 +59,4 @@
 	"senha": "123"
 	
 }
-
+```
