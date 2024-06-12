@@ -1,5 +1,12 @@
 # Projeto Back-end Usuarios
 
+## Dependencias necessarias: 
+*  [MySql](https://dev.mysql.com/downloads/mysql/): Utilizado para o Banco de Dados.
+*  [Java 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html): Utilizado para o Back-end.
+*  [Maven](https://maven.apache.org/): Gerenciador de dependencias Java.
+*  Observação: para instalar o maven, basta baixar o pacote dele, extrair e adicionar o diretorio da pasta /bin nas "variaveis do sistema", "mvn -v" no cmd para verificar se foi instalado.
+
+  
 ## Para executar: 
 * Executar ddl.sql no mysql
 * Na raiz da pasta api executar - mvn spring-boot:run
